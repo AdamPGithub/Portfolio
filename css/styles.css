@@ -1007,11 +1007,47 @@ a:hover.back-to-top {
 
 	/* About */
 	
+	.basic-1 .text-container.first {
+		margin-right: 2rem;
+	}
+
+	.basic-1 .text-container.second {
+		margin-right: 1rem;
+		margin-left: 1rem;
+	}
+
+	.basic-1 .text-container.third {
+		margin-left: 2rem;
+	}
+
+	/* About - Tech Stack icon grid */
 	.basic-1 .tech-stack .icon-grid {
-		display: grid;
-		grid-template-columns: repeat(2, minmax(0, 1fr));
-		gap: 0.9rem 1rem;
-		margin-top: 1.25rem;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 0.9rem 1rem;
+	margin-top: 1.25rem;
+	}
+
+	.basic-1 .tech-stack .skill {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 0.75rem 0.9rem;
+	background: #ffffff;
+	border: 1px solid #d3dae2;
+	border-radius: 12px;
+	}
+
+	.basic-1 .tech-stack .skill i {
+	font-size: 1.4rem;
+	color: #0b36a8; /* matches your theme's blue */
+	width: 1.75rem;
+	text-align: center;
+	}
+
+	.basic-1 .tech-stack .skill span {
+	font-weight: 600;
+	color: #24262a;
 	}
 	
 	/* end of about */
@@ -1124,8 +1160,47 @@ a:hover.back-to-top {
 
 	/* About */
 	
+	.basic-1 .text-container.first {
+		margin-right: 2rem;
+	}
+
+	.basic-1 .text-container.second {
+		margin-right: 1rem;
+		margin-left: 1rem;
+	}
+
+	.basic-1 .text-container.third {
+		margin-left: 2rem;
+	}
+
+	/* About - Tech Stack icon grid */
 	.basic-1 .tech-stack .icon-grid {
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 0.9rem 1rem;
+	margin-top: 1.25rem;
+	}
+
+	.basic-1 .tech-stack .skill {
+	display: flex;
+	align-items: center;
+	gap: 0.75rem;
+	padding: 0.75rem 0.9rem;
+	background: #ffffff;
+	border: 1px solid #d3dae2;
+	border-radius: 12px;
+	}
+
+	.basic-1 .tech-stack .skill i {
+	font-size: 1.4rem;
+	color: #0b36a8; /* matches your theme's blue */
+	width: 1.75rem;
+	text-align: center;
+	}
+
+	.basic-1 .tech-stack .skill span {
+	font-weight: 600;
+	color: #24262a;
 	}
 	
 	/* end of about */
