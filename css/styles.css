@@ -524,6 +524,7 @@ input[type='checkbox'] {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/header-background.jpg') center center no-repeat;
 	background-size: cover;
 	text-align: center;
+	min-height: 100vh;
 }
 
 .header .h1-large {
