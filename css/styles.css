@@ -1005,6 +1005,13 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 
+	/* About */
+	
+	.basic-1 .tech-stack .icon-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	
+	/* end of about */
 
 	/* Services */
 	.basic-2 .text-box {
@@ -1112,6 +1119,13 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 
+	/* About */
+	
+	.basic-1 .tech-stack .icon-grid {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+	
+	/* end of about */
 
 	/* Details */
 	.split {
@@ -1273,12 +1287,7 @@ a:hover.back-to-top {
 	color: #24262a;
 	}
 
-	/* Responsive: 3 columns on wider screens */
-	@media (min-width: 992px) {
-	.basic-1 .tech-stack .icon-grid {
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-	}
-	}
+	
 	/* end of about */
 
 
