@@ -525,6 +525,8 @@ input[type='checkbox'] {
 	background-size: cover;
 	text-align: center;
 	min-height: 100vh;
+	display: flex;
+    align-items: center;
 }
 
 .header .h1-large {
