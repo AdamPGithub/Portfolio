@@ -1008,7 +1008,10 @@ a:hover.back-to-top {
 	/* About */
 	
 	.basic-1 .tech-stack .icon-grid {
+		display: grid;
 		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: 0.9rem 1rem;
+		margin-top: 1.25rem;
 	}
 	
 	/* end of about */
