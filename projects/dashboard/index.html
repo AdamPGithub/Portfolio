@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mini Analytics Dashboard</title>
+
+        <link rel="stylesheet" href="./dashboard.css" />
+
+        <!-- Chart.js via CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <main class="wrap">
+            <header class="top">
+            <h1>Mini Analytics Dashboard</h1>
+            <p>Interactive charts with a simple filter. Hosted on GitHub Pages.</p>
+            </header>
+
+            <section class="controls">
+            <label>
+                Category:
+                <select id="categorySelect"></select>
+            </label>
+            </section>
+
+            <section class="grid">
+            <div class="card">
+                <h2>Totals by Month</h2>
+                <canvas id="monthlyChart"></canvas>
+            </div>
+
+            <div class="card">
+                <h2>Breakdown</h2>
+                <canvas id="breakdownChart"></canvas>
+            </div>
+            </section>
+
+            <footer class="foot">
+            <a href="../../index.html#projects">← Back to portfolio</a>
+            </footer>
+        </main>
+
+        <script src="./dashboard.js"></script>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+[
+  { "month": "2025-01", "category": "School", "value": 12 },
+  { "month": "2025-01", "category": "Volunteer", "value": 6 },
+  { "month": "2025-01", "category": "Personal", "value": 4 },
+
+  { "month": "2025-02", "category": "School", "value": 9 },
+  { "month": "2025-02", "category": "Volunteer", "value": 7 },
+  { "month": "2025-02", "category": "Personal", "value": 5 }
+]
